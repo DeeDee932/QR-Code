@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    transform: translate(100px, 100px);
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    width:375px;
+  }
+}
+
+.line{
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.code{
+    width: 100%;
+}
+
+.bold{
+    font-size: 30px;
+}
+
+.opa{
+    opacity: 0.6;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
